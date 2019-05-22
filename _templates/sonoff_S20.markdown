@@ -42,6 +42,9 @@ From top to bottom (see image below):
 Connected?
 Hold the little button pressed while connecting the serial-to-USB adapter to your computer. After about 2 seconds let go of the button. It is now in flashing mode and ready to be flashed with Tasmota.
 
+There is an updated PCB availavle, which reads *S20 UK/EU V2.1.0 2018-06-19* .
+It has a 5 Pin jumper named as J1 which has a Rx and Tx switched (from Top: 3.3V E_RX E_TX GND) and has an additional Pin named E_LOG which is connected to GPIO2 and is not needed for flashing, but for attaching a sensor.
+
 ### Video tutorial by Don't It Yourself
 [![](http://img.youtube.com/vi/5k_35ppDPho/0.jpg)](http://www.youtube.com/watch?v=5k_35ppDPho "")
 
